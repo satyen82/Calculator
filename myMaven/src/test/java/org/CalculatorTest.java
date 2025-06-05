@@ -39,7 +39,7 @@ public class CalculatorTest {
 	public void testEqual()
 	{
 	Calculator obj=new Calculator();
-	Assert.assertEquals(true,obj.findEqual(10, 10));
+	Assert.assertEquals(true,obj.findEqual(1, 1));
 	Reporter.log("Number1 equals number2",true);
 	}
 	
